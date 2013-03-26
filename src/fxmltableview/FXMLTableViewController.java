@@ -19,7 +19,7 @@ public class FXMLTableViewController {
         ObservableList<Person> data = tableView.getItems();
         data.add(new Person(firstNameField.getText(),
             lastNameField.getText(),
-            "bill@microsoft.com"
+            emailField.getText()
         ));
 
         firstNameField.setText("");
