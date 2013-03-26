@@ -18,7 +18,7 @@ public class FXMLTableViewController {
     protected void addPerson(ActionEvent event) {
         ObservableList<Person> data = tableView.getItems();
         data.add(new Person(firstNameField.getText(),
-            lastNameField.getText(),
+            "Obama",
             emailField.getText()
         ));
 
